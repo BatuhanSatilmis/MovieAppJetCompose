@@ -1,4 +1,4 @@
-package com.kotlin.batuhan.movieappjetcompose.movieList.data.local.remote.respond
+package com.kotlin.batuhan.movieappjetcompose.movieList.data.remote.respond
 
 data class MovieDto(
     val adult: Boolean?,

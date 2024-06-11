@@ -1,7 +1,7 @@
 package com.kotlin.batuhan.movieappjetcompose.movieList.data.mappers
 
 import com.kotlin.batuhan.movieappjetcompose.movieList.data.local.movie.MovieEntity
-import com.kotlin.batuhan.movieappjetcompose.movieList.data.local.remote.respond.MovieDto
+import com.kotlin.batuhan.movieappjetcompose.movieList.data.remote.respond.MovieDto
 import com.kotlin.batuhan.movieappjetcompose.movieList.domain.model.Movie
 
 

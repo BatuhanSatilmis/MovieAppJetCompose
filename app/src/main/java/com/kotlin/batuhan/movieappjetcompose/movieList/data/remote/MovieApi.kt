@@ -1,6 +1,6 @@
-package com.kotlin.batuhan.movieappjetcompose.movieList.data.local.remote
+package com.kotlin.batuhan.movieappjetcompose.movieList.data.remote
 
-import com.kotlin.batuhan.movieappjetcompose.movieList.data.local.remote.respond.MovieListDto
+import com.kotlin.batuhan.movieappjetcompose.movieList.data.remote.respond.MovieListDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -15,7 +15,7 @@ interface MovieApi {
     ) : MovieListDto
 
     companion object{
-        const val BASE_URL = "https://api.themoviedb.org/3/"
+        const val BASE_URL = "https://api.themoviedb.org/1/"
         const val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
         const val API_KEY = "02b04e37221f531c34ad64237f17c2d5"
     }

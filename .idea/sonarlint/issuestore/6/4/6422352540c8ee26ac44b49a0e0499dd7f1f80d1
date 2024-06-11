@@ -1,4 +1,4 @@
 
-…kotlin:S6309"@Functions returning "Flow" or "Channel" should not be suspending(¼Ðéß8©Ú‘·€2J$1ecc54a3-a451-49fa-9669-375499d396cd
-…kotlin:S6309N"@Functions returning "Flow" or "Channel" should not be suspending(£¹â˜8©Ú‘·€2J$d1c98d12-c980-4cd9-ba6b-b325c1facc38
-wkotlin:S1481>"2Remove this unused "movieEntities" local variable.(†ñèñ8©Ú‘·€2J$f6638066-97a6-472c-84b9-38b391466902
+…kotlin:S6309"@Functions returning "Flow" or "Channel" should not be suspending(¼Ðéß8©Ú‘·€2J$1cf9e588-65eb-42f0-921f-2ba82c49242d
+…kotlin:S6309N"@Functions returning "Flow" or "Channel" should not be suspending(£¹â˜8©Ú‘·€2J$c50ef8ba-6ccb-41c4-9af6-bbe6274d5842
+wkotlin:S1481>"2Remove this unused "movieEntities" local variable.(†ñèñ8©Ú‘·€2J$e754e351-496e-42a3-8513-26ec7d899912

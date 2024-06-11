@@ -3,7 +3,7 @@ package com.kotlin.batuhan.movieappjetcompose.di
 import android.app.Application
 import androidx.room.Room
 import com.kotlin.batuhan.movieappjetcompose.movieList.data.local.movie.MovieDatabase
-import com.kotlin.batuhan.movieappjetcompose.movieList.data.local.remote.MovieApi
+import com.kotlin.batuhan.movieappjetcompose.movieList.data.remote.MovieApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -26,7 +26,8 @@ object AppModule {
     @Singleton
     @Provides
     fun providesMovieApi() : MovieApi {
-        return Retrofit.Builder().addConverterFactory(GsonConverterFactory.create()).baseUrl(MovieApi.BASE_URL).client(
+        return Retrofit.Builder().addConverterFactory(GsonConverterFactory.create()).baseUrl(
+            MovieApi.BASE_URL).client(
             client).build().create(MovieApi::class.java)
     }
 

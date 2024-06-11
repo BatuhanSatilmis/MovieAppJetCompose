@@ -2,7 +2,7 @@ package com.kotlin.batuhan.movieappjetcompose.movieList.data.repository
 
 import com.kotlin.batuhan.movieappjetcompose.R
 import com.kotlin.batuhan.movieappjetcompose.movieList.data.local.movie.MovieDatabase
-import com.kotlin.batuhan.movieappjetcompose.movieList.data.local.remote.MovieApi
+import com.kotlin.batuhan.movieappjetcompose.movieList.data.remote.MovieApi
 import com.kotlin.batuhan.movieappjetcompose.movieList.data.mappers.toMovie
 import com.kotlin.batuhan.movieappjetcompose.movieList.data.mappers.toMovieEntity
 import com.kotlin.batuhan.movieappjetcompose.movieList.domain.model.Movie

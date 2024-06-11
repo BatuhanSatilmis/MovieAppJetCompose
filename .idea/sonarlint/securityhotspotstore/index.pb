@@ -51,3 +51,11 @@ w
 Gapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/di/AppModule.kt,0\c\0cdbfcf6eb20736e225005c11d43dbacd62e83f5
 ~
 Napp/src/main/java/com/kotlin/batuhan/movieappjetcompose/di/RepositoryModule.kt,0\9\09eb1f27fa26f1bed9c2fb8d5e41838860767a0a
+î
+dapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/MovieListViewModel.kt,8\a\8a7b453a9a528b602dcf7e8e5d68c0ea09a72726
+ê
+`app/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/MovieListState.kt,c\4\c43b6f435ecc8d153e556669d5813bb56f97973c
+â
+Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/remote/MovieApi.kt,f\d\fd32d91f4adaa13c4408d79d554156057b7c2dbe
+í
+bapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/MovieListUiEvent.kt,c\f\cf024d070db013e9e70db0655c72e4dd81bc4ff1
