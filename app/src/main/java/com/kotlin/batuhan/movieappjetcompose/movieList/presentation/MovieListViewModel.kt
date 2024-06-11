@@ -1,12 +1,16 @@
 package com.kotlin.batuhan.movieappjetcompose.movieList.presentation
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.kotlin.batuhan.movieappjetcompose.movieList.domain.repository.MovieListRepository
 import com.kotlin.batuhan.movieappjetcompose.movieList.util.Category
+import com.kotlin.batuhan.movieappjetcompose.movieList.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 
@@ -38,7 +42,42 @@ class MovieListViewModel @Inject constructor( private val movieListRepository: M
         }
     }
     private fun getUpcomingMovieList(forceFetchFromRemote: Boolean) {
+             viewModelScope.launch {
+                 _movieListState.update {
+                     it.copy(isLoading = true)
+                 }
+                 movieListRepository.getMovieList(
+                     forceFetchFromRemote,
+                     Category.POPULAR,
+                     movieListState.value.popularMovieListPage
+                 ).collectLatest { result ->
+                     when(result){
+                         is Resource.Error -> {
+                             _movieListState.update {
+                                 it.copy(isLoading = false)
+                             }
+                         }
+                         is Resource.Success -> {
 
+                           result.data?.let { popularList ->
+                               _movieListState.update {
+                                   it.copy(
+                       popularMovieList = movieListState.value.popularMovieList + popularList.shuffled()
+                                   )
+                               }
+
+                           }
+
+                         }
+                         is Resource.Loading -> {
+                             _movieListState.update {
+                                 it.copy(isLoading = result.isLoading )
+                             }
+
+                         }
+                     }
+                 }
+             }
     }
 
     private fun getPopularMovieList(forceFetchFromRemote: Boolean) {
