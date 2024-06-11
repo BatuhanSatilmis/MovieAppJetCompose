@@ -1,11 +1,10 @@
-package com.kotlin.batuhan.movieappjetcompose.movieList.data.local.movie
+package com.kotlin.batuhan.movieappjetcompose.movieList.domain.model
 
-import androidx.room.PrimaryKey
-
-data class MovieEntity(
+data class Movie(
     val adult: Boolean?,
     val backdrop_path: String?,
-    val genre_ids: String,
+    val genre_ids: List<Int>,
+    val id: Int?,
     val original_language: String?,
     val original_title: String?,
     val overview: String?,
@@ -16,8 +15,5 @@ data class MovieEntity(
     val video: Boolean?,
     val vote_average: Double?,
     val vote_count: Int?,
-
-    @PrimaryKey
-    val id: Int?,
     val category: String
 )

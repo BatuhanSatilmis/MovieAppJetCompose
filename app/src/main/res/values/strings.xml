@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MovieAppJetCompose</string>
+    <string name="error">Error loading movies</string>
+    <string name="no_such_movie">Error no such movie</string>
 </resources>
+
+
