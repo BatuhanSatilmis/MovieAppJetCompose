@@ -43,3 +43,11 @@ Wapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/domain/model/
 lapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/repository/MovieListRepositoryImpl.kt,6\4\6422352540c8ee26ac44b49a0e0499dd7f1f80d1
 
 ]app/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/mappers/MovieMapper.kt,1\4\14bb7d7f549334ba4347c7bfaacc53fd7728393d
+n
+>app/src/main/java/com/kotlin/batuhan/movieappjetcompose/App.kt,e\0\e06ec1960473088d631fa56341002bae0603be05
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+w
+Gapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/di/AppModule.kt,0\c\0cdbfcf6eb20736e225005c11d43dbacd62e83f5
+~
+Napp/src/main/java/com/kotlin/batuhan/movieappjetcompose/di/RepositoryModule.kt,0\9\09eb1f27fa26f1bed9c2fb8d5e41838860767a0a
