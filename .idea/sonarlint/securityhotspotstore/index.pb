@@ -65,3 +65,11 @@ Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/MainA
 Wapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/HomeScreen.kt,d\b\dbf3dee6b4a85557ce0adf475a6879602bb7a693
 ‰
 Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/DetailScreen.kt,7\c\7cce7201fe7cb6c3ba137cda590a05b1f32f11de
+”
+dapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/PopularMovieScreen.kt,e\5\e5a6723432d881fe03dc3720ac9fe37b6dc5a405
+•
+eapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/UpcomingMovieScreen.kt,f\3\f3eb781da074d46aea0e90bc15c0cafaf1619961
+‰
+Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/components/MovieItem.kt,1\b\1b1d8e3d9931bdd3c24d54eb8bf54c8217588ee1
+–
+fapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/components/MovieItem.kt,e\b\ebfc11d69f4b9c161511a7d62baff221f938ebb8

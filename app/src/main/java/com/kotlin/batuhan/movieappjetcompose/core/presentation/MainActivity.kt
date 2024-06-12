@@ -58,20 +58,15 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    @Suppress("DEPRECATION")
-    @Composable
-    private fun SetBarColor(color: Color) {
+@Suppress("DEPRECATION")
+@Composable
+private fun SetBarColor(color: Color) {
         val systemUiController = rememberSystemUiController()
         LaunchedEffect(key1 = color) {
             systemUiController.setSystemBarsColor(color)
         }
     }
     }
-
-
-
-
-
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {

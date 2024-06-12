@@ -58,7 +58,7 @@ fun HomeScreen( navController: NavHostController) {
                              stringResource(R.string.popular_movies)
                          else
                              stringResource(R.string.upcoming_movies),
-                         fontSize = 2.sp
+                         fontSize = 20.sp
 
                      )
                  },
@@ -78,7 +78,7 @@ fun HomeScreen( navController: NavHostController) {
                   composable(Screen.PopularMovieList.rout){
                  //     PopularMovieScreen()
                   }
-                  composable(Screen.PopularMovieList.rout){
+                  composable(Screen.UpcomingMovieList.rout){
                  //     PopularMovieScreen()
                   }
               }
