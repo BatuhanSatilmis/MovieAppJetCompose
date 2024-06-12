@@ -2,6 +2,10 @@
     <string name="app_name">MovieAppJetCompose</string>
     <string name="error">Error loading movies</string>
     <string name="no_such_movie">Error no such movie</string>
+    <string name="popular">Popular</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
 </resources>
 
 
