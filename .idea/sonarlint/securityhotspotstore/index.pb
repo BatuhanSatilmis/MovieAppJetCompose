@@ -59,3 +59,9 @@ dapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/
 Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/remote/MovieApi.kt,f\d\fd32d91f4adaa13c4408d79d554156057b7c2dbe
 ’
 bapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/MovieListUiEvent.kt,c\f\cf024d070db013e9e70db0655c72e4dd81bc4ff1
+‰
+Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/MainActivity.kt,e\f\ef7193b69f95639a21192175f6b1cabd1ecd5006
+‡
+Wapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/HomeScreen.kt,d\b\dbf3dee6b4a85557ce0adf475a6879602bb7a693
+‰
+Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/DetailScreen.kt,7\c\7cce7201fe7cb6c3ba137cda590a05b1f32f11de

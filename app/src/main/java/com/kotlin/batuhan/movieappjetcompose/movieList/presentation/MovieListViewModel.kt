@@ -26,7 +26,7 @@ class MovieListViewModel @Inject constructor( private val movieListRepository: M
 
 
 
-    private fun onEvent(event: MovieListUiEvent) {
+    fun onEvent(event: MovieListUiEvent) {
         when (event) {
             MovieListUiEvent.Navigate -> {
                 _movieListState.update {
