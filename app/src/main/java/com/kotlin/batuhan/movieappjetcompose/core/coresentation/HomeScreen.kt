@@ -1,4 +1,4 @@
-package com.kotlin.batuhan.movieappjetcompose.core.presentation
+package com.kotlin.batuhan.movieappjetcompose.core.coresentation
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.background

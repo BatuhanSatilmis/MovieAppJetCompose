@@ -71,3 +71,13 @@ Uapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/Setti
 Vapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/Favorites.kt,a\3\a3fb725e42a68d2c31d693ced6f58c020a37e498
 –
 fapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/components/SearchBar.kt,b\8\b833eec07c7e0680b2a9496910c67352d40f7f26
+ˆ
+Xapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/coresentation/HomeScreen.kt,2\d\2d372cd61c5f331de55fe3afbd545b857a658a82
+Š
+Zapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/coresentation/MainActivity.kt,c\f\cf494277038c7e95936a7e6b0b73db52eaef0b54
+•
+eapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/details/presentation/DetailsViewModel.kt,7\d\7d0419512767dd1292a7ba21a38a24c1cfaa931f
+‘
+aapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/details/presentation/DetailsState.kt,9\0\90e75c948a2ef9971eb4e7df9439f06710811ccd
+‘
+aapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/details/presentation/DetailScreen.kt,8\7\87b724af2d81bb25b75d0f890c0d957891884c41
