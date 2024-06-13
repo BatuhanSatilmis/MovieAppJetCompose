@@ -67,3 +67,7 @@ fapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/
 [app/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/Favorites.kt,e\4\e460807fa7f8fae161fb3c2fa5d3fd0a8368d72f
 …
 Uapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/Settings.kt,1\b\1bce71ea213e5d5928e0a38a69086473940b8f25
+†
+Vapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/Favorites.kt,a\3\a3fb725e42a68d2c31d693ced6f58c020a37e498
+–
+fapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/components/SearchBar.kt,b\8\b833eec07c7e0680b2a9496910c67352d40f7f26

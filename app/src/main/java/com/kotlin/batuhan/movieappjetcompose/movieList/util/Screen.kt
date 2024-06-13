@@ -6,6 +6,7 @@ sealed class Screen(val rout: String){
  object UpcomingMovieList : Screen("upcomingMovie")
  object Details : Screen("details")
  object Favorites : Screen ("Favorites")
+ object Settings : Screen ("Settings")
 
 
 }
