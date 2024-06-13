@@ -18,6 +18,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.kotlin.batuhan.movieappjetcompose.core.details.presentation.DetailScreen
 import com.kotlin.batuhan.movieappjetcompose.movieList.util.Screen
 import com.kotlin.batuhan.movieappjetcompose.ui.theme.MovieAppJetComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -50,7 +51,7 @@ class MainActivity : ComponentActivity() {
                         arguments = listOf(
                             navArgument(name = "movieId"){ type = NavType.IntType}
                         ) ){backStackEntry ->
-                        //    DetailScreen(backStackEntry)
+                           DetailScreen(backStackEntry)
                        }
                        composable(Screen.Favorites.rout){
 

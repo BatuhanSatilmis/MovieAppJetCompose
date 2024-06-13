@@ -81,3 +81,13 @@ eapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/details/presentati
 aapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/details/presentation/DetailsState.kt,9\0\90e75c948a2ef9971eb4e7df9439f06710811ccd
 ‘
 aapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/details/presentation/DetailScreen.kt,8\7\87b724af2d81bb25b75d0f890c0d957891884c41
+Š
+Zapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/coresentation/DetailScreen.kt,d\2\d29cee064fc06ee1c6821cfa0fd489cd7a4eb2f0
+š
+japp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/components/MovieBackdrop.kt,8\0\80821cc52fd62fcc68dbae2ff35fc2083098c92c
+’
+bapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/remote/respond/SampleDao.kt,3\5\35fafeaae9c513c26fe79aa01ea7c079b35b3901
+‘
+aapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/remote/respond/MovieDto.kt,0\d\0de7eb44a2934e439889882cbdb97fda42f624c4
+•
+eapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/remote/respond/MovieListDto.kt,c\2\c27026578743b1a1c22e1840b6d82f6b1eb720f2
