@@ -66,7 +66,7 @@ fun MovieItem(
     Column(
         modifier = Modifier
             .wrapContentHeight()
-            .width(200.dp)
+            .width(100.dp)
             .padding(8.dp)
             .clip(RoundedCornerShape(28.dp))
             .background(
@@ -86,7 +86,7 @@ fun MovieItem(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(6.dp)
-                    .height(250.dp)
+                    .height(140.dp)
                     .clip(RoundedCornerShape(22.dp))
                     .background(MaterialTheme.colorScheme.primaryContainer),
                 contentAlignment = Alignment.Center
@@ -108,7 +108,7 @@ fun MovieItem(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(6.dp)
-                    .height(250.dp)
+                    .height(140.dp)
                     .clip(RoundedCornerShape(22.dp)),
                 painter = imageState.painter,
                 contentDescription = movie.title,

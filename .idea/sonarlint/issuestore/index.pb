@@ -1,6 +1,4 @@
 
-w
-Gapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/MainActivity.kt,4\a\4a4b88575e132e9fc61008ab724e4eda756402c2
 y
 Iapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/ui/theme/Color.kt,7\f\7f346c1beeb1e070cbedfdfcf02eb29f068107f3
 y
@@ -11,14 +9,6 @@ Happ/src/main/java/com/kotlin/batuhan/movieappjetcompose/ui/theme/Type.kt,5\7\5
 build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
 D
 app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
-è
-_app/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/local/remote/MovieApi.kt,a\6\a65063b4f8c361a08e309169f1cd789f158a74ad
-õ
-kapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/local/remote/respond/MovieListDto.kt,5\9\59cf00cac35ee79dbbaa355f8dcb6808ebb4f207
-î
-dapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/local/remote/respond/Dates.kt,c\7\c76a09c58711e1299aaf7472ea2b0fb510534ee0
-ó
-gapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/local/remote/respond/MovieDto.kt,e\c\ec873d6a9baa96c341fd66e3324ebb9bdc34947e
 é
 ^app/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/data/local/movie/MovieDao.kt,1\a\1ac46ef785a1042a373822f10a5b0044bb7fbae7
 ë
@@ -69,7 +59,11 @@ Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/Detai
 dapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/PopularMovieScreen.kt,e\5\e5a6723432d881fe03dc3720ac9fe37b6dc5a405
 ï
 eapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/UpcomingMovieScreen.kt,f\3\f3eb781da074d46aea0e90bc15c0cafaf1619961
-â
-Yapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/components/MovieItem.kt,1\b\1b1d8e3d9931bdd3c24d54eb8bf54c8217588ee1
 ñ
 fapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/components/MovieItem.kt,e\b\ebfc11d69f4b9c161511a7d62baff221f938ebb8
+ê
+`app/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/SettingsScreen.kt,9\0\902bd5c5c848668baf183f06d8b79115309775c2
+ã
+[app/src/main/java/com/kotlin/batuhan/movieappjetcompose/movieList/presentation/Favorites.kt,e\4\e460807fa7f8fae161fb3c2fa5d3fd0a8368d72f
+Ö
+Uapp/src/main/java/com/kotlin/batuhan/movieappjetcompose/core/presentation/Settings.kt,1\b\1bce71ea213e5d5928e0a38a69086473940b8f25

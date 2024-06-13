@@ -52,6 +52,9 @@ class MainActivity : ComponentActivity() {
                         ) ){backStackEntry ->
                         //    DetailScreen(backStackEntry)
                        }
+                       composable(Screen.Favorites.rout){
+
+                       }
 
                        }
                    }

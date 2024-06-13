@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Movie
+import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.Upcoming
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -35,13 +36,14 @@ import com.kotlin.batuhan.movieappjetcompose.R
 import com.kotlin.batuhan.movieappjetcompose.movieList.presentation.MovieListUiEvent
 import com.kotlin.batuhan.movieappjetcompose.movieList.presentation.MovieListViewModel
 import com.kotlin.batuhan.movieappjetcompose.movieList.util.Screen
+import com.kotlin.batuhan.movieappjetcompose.movieList.presentation.PopularMoviesScreen
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen( navController: NavHostController) {
       val movieListViewModel = hiltViewModel<MovieListViewModel>()
-      val movieState = movieListViewModel.movieListState.collectAsState().value
+      val movieListState = movieListViewModel.movieListState.collectAsState().value
       val bottomNavController = rememberNavController()
 
       Scaffold(
@@ -54,7 +56,7 @@ fun HomeScreen( navController: NavHostController) {
              TopAppBar(
                  title = {
                      Text(
-                         text = if (movieState.isCurrentPopularScreen)
+                         text = if (movieListState.isCurrentPopularScreen)
                              stringResource(R.string.popular_movies)
                          else
                              stringResource(R.string.upcoming_movies),
@@ -76,10 +78,17 @@ fun HomeScreen( navController: NavHostController) {
               NavHost(navController = bottomNavController,
                   startDestination = Screen.PopularMovieList.rout){
                   composable(Screen.PopularMovieList.rout){
-                 //     PopularMovieScreen()
+                      PopularMoviesScreen(
+                           navController = navController,
+                           movieListState = movieListState,
+                           onEvent = movieListViewModel::onEvent
+                      )
                   }
                   composable(Screen.UpcomingMovieList.rout){
                  //     PopularMovieScreen()
+                  }
+                  composable(Screen.Favorites.rout){
+
                   }
               }
           }
@@ -98,6 +107,11 @@ fun BottomNavigationBar(bottomNavController : NavHostController, onEvent : (Movi
         BottomItem(
             title = stringResource(R.string.upcoming),
             icon = Icons.Rounded.Upcoming
+        )
+        ,
+        BottomItem(
+            title = stringResource(R.string.settings),
+            icon = Icons.Rounded.Settings
         )
     )
     val selected = rememberSaveable {
@@ -121,6 +135,11 @@ fun BottomNavigationBar(bottomNavController : NavHostController, onEvent : (Movi
                                 onEvent(MovieListUiEvent.Navigate)
                                 bottomNavController.popBackStack()
                                 bottomNavController.navigate(Screen.UpcomingMovieList.rout)
+                            }
+                            2 -> {
+                                onEvent(MovieListUiEvent.Navigate)
+                                bottomNavController.popBackStack()
+                                bottomNavController.navigate(Screen.Favorites.rout)
                             }
 
                         }
