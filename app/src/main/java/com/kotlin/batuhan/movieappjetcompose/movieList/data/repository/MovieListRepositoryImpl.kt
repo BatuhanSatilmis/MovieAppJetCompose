@@ -44,18 +44,18 @@ class MovieListRepositoryImpl @Inject constructor(
             }
 
             val movieListFromApi = try {
-                movieApi.getMoviesList(category, page)
+                movieApi.getMoviesList(category , page)
             } catch (e: IOException) {
                 e.printStackTrace()
-                emit(Resource.Error(message = "${R.string.error}"))
+                emit(Resource.Error(message = "Error loading movies"))
                 return@flow
             } catch (e: HttpException) {
                 e.printStackTrace()
-                emit(Resource.Error(message = "${R.string.error}"))
+                emit(Resource.Error(message = "Error loading movies"))
                 return@flow
             } catch (e: Exception) {
                 e.printStackTrace()
-                emit(Resource.Error(message = "${R.string.error}"))
+                emit(Resource.Error(message = "Error loading movies"))
                 return@flow
             }
 
@@ -75,6 +75,7 @@ class MovieListRepositoryImpl @Inject constructor(
         }
     }
 
+
     override suspend fun getMovie(id: Int): Flow<Resource<Movie>> {
         return flow {
 
@@ -91,7 +92,7 @@ class MovieListRepositoryImpl @Inject constructor(
                 return@flow
             }
 
-            emit(Resource.Error("${R.string.no_such_movie}"))
+            emit(Resource.Error("Error no such movie"))
 
             emit(Resource.Loading(false))
 

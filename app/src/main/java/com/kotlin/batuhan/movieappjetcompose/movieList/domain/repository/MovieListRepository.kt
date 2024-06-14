@@ -1,6 +1,7 @@
 package com.kotlin.batuhan.movieappjetcompose.movieList.domain.repository
 
 import com.kotlin.batuhan.movieappjetcompose.movieList.domain.model.Movie
+import com.kotlin.batuhan.movieappjetcompose.movieList.presentation.MovieListUiEvent
 import com.kotlin.batuhan.movieappjetcompose.movieList.util.Resource
 import kotlinx.coroutines.flow.Flow
 
@@ -8,7 +9,7 @@ interface MovieListRepository {
     suspend fun getMovieList(
         forceFetchFromRemote: Boolean,
         category: String,
-        page: Int
+        page: Int,
     ) : Flow<Resource<List<Movie>>>
 
     suspend fun getMovie(id: Int) : Flow<Resource<Movie>>
