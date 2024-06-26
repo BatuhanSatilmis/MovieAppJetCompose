@@ -3,6 +3,7 @@ package com.kotlin.batuhan.movieappjetcompose.core.details.presentation
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.kotlin.batuhan.movieappjetcompose.movieList.domain.model.Movie
 import com.kotlin.batuhan.movieappjetcompose.movieList.domain.repository.MovieListRepository
 import com.kotlin.batuhan.movieappjetcompose.movieList.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -21,7 +22,6 @@ class DetailsViewModel @Inject constructor(private val movieListRepository: Movi
  private val movieId: Int? = savedStateHandle.get<Int>("movieId")
  private var _detailsState = MutableStateFlow(DetailsState())
  val detailsState = _detailsState.asStateFlow()
-
  init {
      getMovie(movieId ?: -1)
  }
@@ -55,4 +55,9 @@ class DetailsViewModel @Inject constructor(private val movieListRepository: Movi
 
    }
  }
+    fun addToFavorites(movie: Movie) {
+        viewModelScope.launch {
+            movieListRepository.addToFavorites(movie)
+        }
+    }
 }

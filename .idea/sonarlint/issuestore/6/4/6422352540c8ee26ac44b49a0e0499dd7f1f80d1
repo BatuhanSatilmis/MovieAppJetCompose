@@ -1,5 +1,5 @@
 
-…kotlin:S6309"@Functions returning "Flow" or "Channel" should not be suspending(¼Ğéß8Å¹«­2J$64c3f4c5-0c09-4b97-a0e9-bba5083de600
-…kotlin:S6309O"@Functions returning "Flow" or "Channel" should not be suspending(£¹â˜8®¡­­2J$111e2b96-9b03-4ce7-90ba-ab197a5cf73e
-wkotlin:S1481>"2Remove this unused "movieEntities" local variable.(†ñèñ8Å¹«­2J$64d4004c-f4ce-43ec-be8e-be4bb2a476ee
-Ÿkotlin:S11922"UDefine a constant instead of duplicating this literal "Error loading movies" 3 times.(ø¯áúøÿÿÿÿ8Ğ¹«­2J$4d051f80-26fa-4137-8b3e-4fd376b59fa6
+…kotlin:S6309"@Functions returning "Flow" or "Channel" should not be suspending(¼Ğéß8Å¹«­2J$93b3a8c1-2672-4ff9-ac82-b490b914e8bc
+…kotlin:S6309P"@Functions returning "Flow" or "Channel" should not be suspending(£¹â˜8®¡­­2J$180b717e-67ee-43f7-9326-50b821bdb6c6
+wkotlin:S1481?"2Remove this unused "movieEntities" local variable.(†ñèñ8éÒ´¥…2J$409f1f49-3b4d-4fb1-ae40-604a2afd008a
+Ÿkotlin:S11923"UDefine a constant instead of duplicating this literal "Error loading movies" 3 times.(ø¯áúøÿÿÿÿ8Ğ¹«­2J$59664a97-adb8-4107-8ff9-7151eeebb600
